@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://duckduckgo.com/",
+  "video": false,
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 10000,
+  "testFiles": "**/*.{feature,features}",
+  "integrationFolder": "cypress/integration",
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  }
+}

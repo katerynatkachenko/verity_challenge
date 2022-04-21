@@ -1,0 +1,34 @@
+{
+  "name": "verity-cypress-tech-exercise",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "browser": "firefox",
+  "headless": true,
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "cypress": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run:firefox": "cypress run --browser firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Verity (verity.net)",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.1.0",
+    "cypress": "^9.5.4",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/integration"
+  }
+}
